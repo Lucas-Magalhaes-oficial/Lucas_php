@@ -8,10 +8,10 @@
 <body>
     <?php
         # index 0123456789012345
-        echo $name = "Stefanie Hatcher <br>";
+        echo $name = "Stefanie Hatcher";
         echo $length = strlen($name);
-        echo $cmp = strcmp($name, "Brian Le <br>");
-        echo $index = strpos($name, "e <br>");
+        echo $cmp = strcmp($name, "Brian Le");
+        echo $index = strpos($name, "e");
         echo $first = substr($name, 9, 5);
         echo $name = strtoupper($name);
     ?>
