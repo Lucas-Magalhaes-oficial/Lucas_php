@@ -3,16 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>exemplo 1 php</title>
+    <title>if com php</title>
 </head>
 <body>
     <?php
-        echo "<h1>Hello World, PHP-8!</h1>";
-
-        phpinfo();
+        #$name = "Xenia";
+       # $name = NULL;
+        if (isset($name)) {
+            print "Essa linha não vai ser alcançada";
+        }
     ?>
 <address>
     Lucas Magalhães Sarmento | Estudante | Técnico de desenvolvimento de sistema
 </address>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -30,5 +30,9 @@
         print "Hoje é seu $ageth aniversário.\n"; #$ageth não vai ser encontrado
         print "Hoje é seu {$age} aniversário.\n"; #$age agora funciona, adicionando as chaves evita ambiguidade
     ?>
+
+        <address>
+                Lucas Magalhães Sarmento | Estudante | Técnico de desenvolvimento de sistema
+        </address>
 </body>
 </html>

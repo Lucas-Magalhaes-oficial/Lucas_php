@@ -15,5 +15,8 @@
         echo $first = substr($name, 9, 5);
         echo $name = strtoupper($name);
     ?>
+<address>
+    Lucas Magalhães Sarmento | Estudante | Técnico de desenvolvimento de sistema
+</address>
 </body>
 </html>

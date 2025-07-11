@@ -26,6 +26,8 @@
         echo 'Ainda pode-se usar aspas simpes dessa formar It\'s cool!<br>';
     ?>
 
-
+<address>
+    Lucas Magalhães Sarmento | Estudante | Técnico de desenvolvimento de sistema
+</address>
 </body>
 </html>

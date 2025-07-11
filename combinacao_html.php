@@ -15,5 +15,8 @@
     ?>
     <p align="center">Hoje é dia<?php echo $data_hoje; ?>
     </p>
+<address>
+    Lucas Magalhães Sarmento | Estudante | Técnico de desenvolvimento de sistema
+</address>
 </body>
 </html>
