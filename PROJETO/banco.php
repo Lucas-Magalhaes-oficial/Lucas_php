@@ -4,7 +4,7 @@
     $bdSenha = 'root';
     $bdBanco = 'lucas_magalhaes';
     $conexao = mysqli_connect($bdServidor, $bdUsuario, $bdSenha, $bdBanco);
-        if (mysqli_connect_errno($conexao)) {
+        if (mysqli_connect_errno()) {
             echo "Problemas para conectar no banco. Verifique os dados informados.";
             die();
         }
