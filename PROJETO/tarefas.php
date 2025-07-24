@@ -1,5 +1,6 @@
 <?php
 session_start();
+    include "banco.php";
 
     if (isset($_GET['nome']) && $_GET['nome'] != '') {
         $tarefa = array();
@@ -24,13 +25,23 @@ session_start();
             } else {
                     $tarefa['concluida'] = '';
             }
-        $_SESSION['lista_tarefas'] [] = $tarefa;
+        gravar_tarefa($conexao, $tarefa);
+    }
+
+        $lista_tarefas = buscar_tarefas($conexao);
+
+        function buscar_tarefas($conexao)
+        {
+            $sqlBusca = 'SELECT * FROM tarefas';
+            $resultado = mysqli_query($conexao, $sqlBusca);
+            $tarefas = array();
+            while ($tarefa = mysqli_fetch_assoc($resultado)){
+                $tarefas[] = $tarefa;
+        }
+    return $tarefas;
 }
 
-    if (array_key_exists('lista_tarefas', $_SESSION)) {
-        $lista_tarefas = $_SESSION['lista_tarefas'];
-    } else {
-        $lista_tarefas = [];
-    }
-include "template.php"
+    
+
+include "template.php";
 ?>
