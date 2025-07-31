@@ -12,7 +12,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="#">CRUD de Clientes</a>
+            <a class="navbar-brand fw-bold mx-auto" href="#">CRUD de Clientes</a>
         </div>
     </nav>
 
