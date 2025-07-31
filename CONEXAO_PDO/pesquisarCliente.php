@@ -16,7 +16,7 @@
         exit;
     }
 
-//escole entre busca por id ou nome e faz a consulta diretamente
+//escolhe entre busca por id ou nome e faz a consulta diretamente
 if(is_numeric($busca)){
     $stmt = $conexao->prepare("SELECT id_cliente, nome, endereco, telefone, email FROM cliente WHERE id_cliente = :id");
     $stmt->bindParam(":id", $busca,PDO::PARAM_INT);
@@ -42,6 +42,7 @@ if(!$clientes){
         <th>E-mail</th>
         <th>Ação</th>
     </tr>
+    <?php foreach ($clientes as $cliente): ?>
     <tr>
         <td><?= htmlspecialchars($cliente['id_cliente'])?></td>
         <td><?= htmlspecialchars($cliente['nome'])?></td>
