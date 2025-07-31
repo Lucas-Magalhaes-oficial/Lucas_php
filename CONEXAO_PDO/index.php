@@ -53,9 +53,9 @@
         </div>
     </div>
     <br>
-    <address>
+    <center><address>
     Lucas Magalhães Sarmento | Estudante | Técnico de desenvolvimento de sistema
-    </address>
+    </address></center>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
