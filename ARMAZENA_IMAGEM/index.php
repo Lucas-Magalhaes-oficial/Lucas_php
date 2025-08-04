@@ -45,14 +45,14 @@
         <tr>
             <td align="center"><?php echo $arquivos['codigo']; ?></td>
             <td align="center"><?php echo $arquivos['evento']; ?></td>
-            <td align="center"><?php echo $arquivos['decricao']; ?></td>
+            <td align="center"><?php echo $arquivos['descricao']; ?></td>
             <td align="center"><?php echo $arquivos['nome_imagem']; ?></td>
             <td align="center"><?php echo $arquivos['tamanho_imagem']; ?></td>
             <td align="center">
                 <a href="ver_imagens.php?id=<?php echo $arquivos['codigo'];?>">Ver Imagem</a>
             </td>
             <td align="center">
-                <a href="excluir_imagens.php?id=<?php echo $arquivos['codigo'];?>">Excluir</a>
+                <a href="excluir_imagem.php?id=<?php echo $arquivos['codigo'];?>">Excluir</a>
             </td>
         </tr>
         <?php
