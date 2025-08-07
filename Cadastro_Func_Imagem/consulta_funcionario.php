@@ -46,7 +46,7 @@
         <?php foreach ($funcionarios as $funcionarios): ?> <!-- //foreach percorre o array-->
             <li>
                 <!-- a linha abaixo exibe o link para visualizar os detalhes do funcionario com base no id -->
-                <a href="visualizar_funcionario.php?id=<?$funcionario['id']?>">
+                <a href="visualizar_funcionario.php?id=<?=$funcionario['id']?>">
                 <!--a linha abaixo exibe o nome do funcionario -->
                     <?=htmlspecialchars($funcionario['nome'])?>
                 </a>
