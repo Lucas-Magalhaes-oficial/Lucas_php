@@ -73,6 +73,9 @@ try{
         <input type="hidden" name="excluir_id" value="<?=$id ?>">
         <button type="submit">Excluir Funcionario</button>
     </form>
+    <address>
+    Lucas Magalhães Sarmento | Estudante | Técnico de desenvolvimento de sistema
+</address>
 </body>
 </html>
 

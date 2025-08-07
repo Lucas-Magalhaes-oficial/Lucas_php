@@ -58,5 +58,8 @@
             </li>
         <?php endforeach; ?>
     </ul>
+    <address>
+    Lucas Magalhães Sarmento | Estudante | Técnico de desenvolvimento de sistema
+</address>
 </body>
 </html>

@@ -94,5 +94,9 @@
     <h1>Lista de imagens</h1>
 
     <a href="consulta_funcionario.php">Listar funcionarios</a>
+
+    <address>
+    Lucas Magalhães Sarmento | Estudante | Técnico de desenvolvimento de sistema
+</address>
 </body>
 </html>

@@ -27,5 +27,8 @@
         <button type="submit">Cadastrar</button>
         </form>
     </div>
+    <address>
+    Lucas Magalhães Sarmento | Estudante | Técnico de desenvolvimento de sistema
+</address>
 </body>
 </html>
