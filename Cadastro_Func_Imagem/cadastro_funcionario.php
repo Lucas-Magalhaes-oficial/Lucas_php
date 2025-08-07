@@ -12,14 +12,11 @@
         <h2>Funcionario</h2>
     <!--Formulario para cadastrar um funcionario -->
         <form action="salvar_funcionario.php" method="POST" enctype="multipart/form-data">
-            <label for="nome">Nome:</label>
-            <input type="text" name="nome" id="nome" required><br>
-            
-    <!--Campo para inserir o nome do funcionario -->
+             <!--Campo para inserir o nome do funcionario -->
             <label for="nome">Nome:</label>
             <input type="text" name="nome" id="nome" required><br>
 
-     <!--Campo para inserir o nome do funcionario -->
+     <!--Campo para inserir o telefone do funcionario -->
             <label for="telefone">Telefone:</label>
             <input type="text" name="telefone" id="telefone" required><br>
 

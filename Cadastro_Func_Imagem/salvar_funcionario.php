@@ -38,15 +38,14 @@
 
     //configuração do banco de dados
     $host = 'localhost';
-    $dbname = 'bd_imagens'
-    $username =  'root';
+    $dbname = 'bd_imagens';
+    $user =  'root';
     $password = '';
 
     try{
         //conexao com banco de dados usando PDO
-        $pdo = mew PDO("mysql:host=$host;dbname=$dbname", $username,$password);
+        $pdo = new PDO("mysql:host=$host;dbname=$dbname", $user,$password);
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); //define que erros vão lançar exceções
-
 
         //verifica se foi um post e se o arquivo
         if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['foto'])){
@@ -84,3 +83,16 @@
         echo "Erro" .$e->getMessage(); //Mostra o erro se houver;
     }
 ?>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Imagens</title>
+</head>
+<body>
+    <h1>Lista de imagens</h1>
+
+    <a href="consulta_funcionario.php">Listar funcionarios</a>
+</body>
+</html>
